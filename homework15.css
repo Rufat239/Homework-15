@@ -1,0 +1,637 @@
+.header {
+  width: 100%;
+  height: 106vh;
+  background-color: rgba(4, 23, 46, 0.7);
+  position: relative;
+}
+.header .color {
+  width: 100%;
+  height: 106vh;
+  position: absolute;
+  background-color: rgba(4, 23, 46, 0.7);
+  z-index: 0;
+}
+.header .forhead {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(4, 23, 46, 0.7);
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .forhead .condition {
+  width: 30%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  z-index: 50;
+}
+.header .forhead .condition a {
+  font-size: 18px;
+  padding-right: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+.header .forhead .icons {
+  width: 15%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  z-index: 50;
+}
+.header .forhead .icons a {
+  color: #fff;
+}
+.header .forhead .icons a:hover {
+  color: #E6922E;
+}
+.header .chest {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+}
+.header .chest .logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  z-index: 50;
+}
+.header .chest .navbar {
+  width: 70%;
+}
+.header .chest .navbar ul {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+}
+.header .chest .navbar ul li {
+  font-size: 20px;
+}
+.header .chest .navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.header .chest .navbar ul li a:hover {
+  color: orange;
+}
+.header .chest .navbar ul .log {
+  width: 10%;
+  height: 35px;
+  background-color: orange;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 2%;
+  transition: 1.5s;
+}
+.header .chest .navbar ul .log:hover {
+  background-color: #fff;
+  color: orange;
+}
+.header .chest .navbar ul .log:hover p {
+  transition: 1.5s;
+  color: orange;
+}
+.header .chest .navbar ul .log p {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 3px;
+}
+.header .hed {
+  width: 50%;
+  text-align: center;
+  margin-left: 29%;
+  margin-top: 14%;
+  position: absolute;
+  z-index: 50;
+}
+.header .hed h2 {
+  font-size: 100px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.header .butvid {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+}
+.header .butvid .button {
+  width: 10%;
+  height: 7vh;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  margin-left: 150px;
+  transition: 1.5s;
+}
+.header .butvid .button:hover {
+  background-color: #fff;
+  color: orange;
+}
+.header .butvid .button:hover .get {
+  transition: 1.5s;
+  color: orange;
+}
+.header .butvid .button .get {
+  font-size: 22px;
+  text-decoration: none;
+  color: #fff;
+}
+.header .butvid .video {
+  width: 15%;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  z-index: 50;
+}
+.header .butvid .video .play {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.header .butvid .video i {
+  background-color: orange;
+  border-radius: 50%;
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+.card-container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.card-container .cards1 {
+  width: 80%;
+  height: 35vh;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-container .cards1 .card1 {
+  width: 20%;
+  height: 30vh;
+  background-color: antiquewhite;
+}
+.card-container .cards1 .card1 .icon {
+  width: 35%;
+  height: 30%;
+  background-color: orange;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 35px;
+}
+.card-container .cards1 .card1 .icon i {
+  font-size: 35px;
+  color: #fff;
+}
+.card-container .cards1 .card1 h2 {
+  font-size: 23px;
+  text-align: center;
+}
+.card-container .cards1 .card1 p {
+  font-size: 26px;
+  text-align: center;
+}
+.card-container .cards1 .card1 .line {
+  width: 100%;
+  height: 5px;
+  background-color: orange;
+  margin-top: 64px;
+}
+
+.plan {
+  width: 100%;
+  height: 85vh;
+}
+.plan .textcard {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+.plan .textcard .text {
+  width: 40%;
+  height: 15px;
+  text-align: center;
+}
+.plan .textcard .text h2 {
+  font-size: 40px;
+}
+.plan .textcard .text p {
+  font-size: 20px;
+  color: grey;
+}
+.plan .boxes1 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plan .boxes1 .boxes2 {
+  width: 80%;
+  height: 60vh;
+  margin-top: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.plan .boxes1 .boxes2 .box1 {
+  width: 22%;
+  height: 45vh;
+  border: 2px solid orange;
+  position: relative;
+  overflow: hidden;
+}
+.plan .boxes1 .boxes2 .box1 .hedr {
+  width: 50%;
+  height: 7vh;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 25px;
+}
+.plan .boxes1 .boxes2 .box1 .hedr h3 {
+  font-size: 40px;
+  color: orange;
+}
+.plan .boxes1 .boxes2 .box1 .hedr p {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+  color: grey;
+}
+.plan .boxes1 .boxes2 .box1 h4 {
+  font-size: 30px;
+  margin-left: 10%;
+}
+.plan .boxes1 .boxes2 .box1 .base {
+  position: absolute;
+  right: -52px;
+  top: 24px;
+  background: #1AA15F;
+  width: 180px;
+  text-align: center;
+  height: 30px;
+  line-height: 28px;
+  color: #fff;
+  transform: rotate(45deg);
+}
+.plan .boxes1 .boxes2 .box1 p {
+  font-size: 16px;
+  margin-left: 10%;
+  margin-top: 15px;
+  color: grey;
+}
+.plan .boxes1 .boxes2 .box1 .button {
+  width: 40%;
+  height: 45px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  border: 1px solid orange;
+  transition: 1.5s;
+}
+.plan .boxes1 .boxes2 .box1 .button:hover {
+  background-color: #fff;
+  color: orange;
+}
+.plan .boxes1 .boxes2 .box1 .button:hover .dep {
+  color: orange;
+}
+.plan .boxes1 .boxes2 .box1 .button a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.plan2 {
+  width: 100%;
+  height: 110vh;
+}
+.plan2 .textcard2 {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+.plan2 .textcard2 .text2 {
+  width: 35%;
+  height: 15px;
+  text-align: center;
+}
+.plan2 .textcard2 .text2 h2 {
+  font-size: 45px;
+}
+.plan2 .textcard2 .text2 p {
+  font-size: 18px;
+  color: grey;
+  margin: 0;
+}
+.plan2 .cards2 {
+  width: 100%;
+  height: 90vh;
+}
+.plan2 .cards2 .crd2 {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+.plan2 .cards2 .crd2 .card2 {
+  width: 39%;
+  height: 230px;
+  border: 1px solid orange;
+  display: flex;
+  margin: 10px;
+  transition: 1.5s;
+}
+.plan2 .cards2 .crd2 .card2:hover {
+  background-color: orange;
+  color: #fff;
+}
+.plan2 .cards2 .crd2 .card2:hover .icon3 {
+  border-color: #fff;
+}
+.plan2 .cards2 .crd2 .card2:hover i {
+  color: #fff;
+}
+.plan2 .cards2 .crd2 .card2:hover p {
+  transition: 1.5s;
+  color: #fff;
+}
+.plan2 .cards2 .crd2 .card2 .icon3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.plan2 .cards2 .crd2 .card2 .icon3 a {
+  font-size: 40px;
+  color: orange;
+}
+.plan2 .cards2 .crd2 .card2 .text3 {
+  width: 60%;
+  height: 100px;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+.plan2 .cards2 .crd2 .card2 h2 {
+  font-size: 27px;
+}
+.plan2 .cards2 .crd2 .card2 p {
+  font-size: 18px;
+  color: grey;
+  margin-top: 25px;
+}
+
+.photo {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 6%;
+  background-size: cover;
+  margin-bottom: 0;
+}
+.photo .about {
+  position: absolute;
+  width: 34%;
+  height: 35vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 58%;
+}
+.photo .about .abt {
+  width: 80%;
+  height: 30vh;
+}
+.photo .about .a1 {
+  font-size: 23px;
+}
+.photo .about .a2 {
+  font-size: 20px;
+  color: grey;
+  transition: none;
+}
+
+.referal {
+  width: 100%;
+  height: 70vh;
+  margin-top: 90px;
+}
+.referal .referal1 {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+.referal .referal1 .reftext {
+  width: 40%;
+  height: 30vh;
+}
+.referal .referal1 .reftext h2 {
+  font-size: 45px;
+  text-align: center;
+}
+.referal .referal1 .reftext p {
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+}
+.referal .referal2 {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.referal .referal2 .cardprtf1 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+.referal .referal2 .cardprtf1 .prtf1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.referal .referal2 .cardprtf1 .prtf1 a {
+  font-size: 50px;
+  color: #E6922E;
+}
+.referal .referal2 .number1 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #E6922E;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.referal .referal2 .number1 p {
+  font-size: 25px;
+  color: #fff;
+  line-height: 45px;
+}
+.referal .referal2 .txtcrd1 {
+  width: 250px;
+  height: 85px;
+  margin-top: 30px;
+}
+.referal .referal2 .txtcrd1 p {
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+}
+.referal .referal2 .cardprtf2 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+.referal .referal2 .cardprtf2 .prtf2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.referal .referal2 .cardprtf2 .prtf2 a {
+  font-size: 50px;
+  color: #b91ca8;
+}
+.referal .referal2 .number2 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #b91ca8;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.referal .referal2 .number2 p {
+  font-size: 25px;
+  color: #fff;
+  line-height: 45px;
+}
+.referal .referal2 .txtcrd2 {
+  width: 250px;
+  height: 85px;
+  margin-top: 30px;
+}
+.referal .referal2 .txtcrd2 p {
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+}
+.referal .referal2 .cardprtf3 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+.referal .referal2 .cardprtf3 .prtf3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.referal .referal2 .cardprtf3 .prtf3 a {
+  font-size: 50px;
+  color: #1AA15F;
+}
+.referal .referal2 .number3 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #1AA15F;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.referal .referal2 .number3 p {
+  font-size: 25px;
+  color: #fff;
+  line-height: 45px;
+}
+.referal .referal2 .txtcrd3 {
+  width: 250px;
+  height: 85px;
+  margin-top: 30px;
+}
+.referal .referal2 .txtcrd3 p {
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+}
+
+.tables {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.tables .texttable {
+  width: 40%;
+  height: 20vh;
+}
+.tables .texttable h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.tables .texttable p {
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}/*# sourceMappingURL=homework15.css.map */
